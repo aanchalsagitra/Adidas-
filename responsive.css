@@ -1,0 +1,250 @@
+/* Prenav item  */
+@media only screen and (max-width: 260px) {
+  #pre_navigation_division_items {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1156px) {
+  #header_sub_div2,
+  #header_sub_div3 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 989px) {
+  #navbar_div1 {
+    justify-content: center;
+  }
+  #user_details {
+    justify-content: space-evenly;
+  }
+  input[type="search"] {
+    width: 70vw;
+  }
+}
+@media only screen and (min-width: 541px) and (max-width: 1156px) {
+  #header_sub_div1 {
+    width: max-content;
+  }
+}
+@media only screen and (max-width: 541px) {
+  #header_main_div {
+    padding: 3em;
+  }
+  .headerbox {
+    width: 100vw;
+  }
+  #header_sub_div1 h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  #header_sub_div1 p {
+    line-height: 1.5;
+    text-align: center;
+  }
+}
+
+/* navbar 2 */
+@media only screen and (max-width: 567px) {
+  #navitems ul {
+    justify-content: center;
+    width: 100vw;
+  }
+  #navitems ul li {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 516px) {
+  /* #user_details{
+        display: block;
+    } */
+  #icons a i {
+    margin-top: 9px;
+  }
+}
+@media only screen and (max-width: 280px) {
+  #navbar ul {
+    display: inline;
+    text-align: center;
+  }
+}
+
+/* pOPULAR ITEMS SECTION  */
+
+@media only screen and (max-width: 640px) {
+  #popular_item_section {
+    padding: 2rem;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .popularItems {
+    display: flex;
+    flex-direction: column;
+  }
+}
+#popularItems button {
+  width: max-content;
+  margin-left: 0px;
+}
+
+/* Category Section  */
+@media only screen and (max-width: 510px) {
+  #category_div_img {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+    padding: 0px;
+  }
+
+  #men,
+  #women,
+  #kids {
+    width: 100vw;
+    background-position: center;
+    margin-top: 8px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 436px) {
+  #category_div_heading h1 {
+    text-align: center;
+  }
+  #category_div_heading {
+    width: 100vw;
+  }
+}
+
+/* Explore sextion  */
+@media only screen and (max-width: 600px) {
+  #explore_section_division {
+    /* align-items: center; */
+    padding: 2rem;
+  }
+  #explore_section_division p {
+    line-height: 1.5;
+    margin-top: 8px;
+    width: 80vw;
+  }
+  #logonname span {
+    font-size: 1.5em;
+  }
+  #explore_section_division button {
+    width: max-content;
+  }
+}
+
+@media only screen and (max-width: 271px) {
+  #logonname span {
+    font-size: 1rem;
+  }
+  #logonname img {
+    display: none;
+  }
+}
+
+/* New Arrival  Section  */
+@media only screen and (min-width: 585px) and (max-width: 950px) {
+  .new_arrival_div_box ,.best_of_adidas_div_box {
+    width: 35vw;
+    margin-top: 5px;
+    padding: 5px;
+  }
+  .new_arrival_div_box img ,.best_of_adidas_div_box img {
+    width: 35vw;
+  }
+  #new_arrival_section_div1 h1 , #best_of_adidas_section_div1 h1 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  .new_arrival_div_box,.best_of_adidas_div_box {
+    width: 80vw;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .new_arrival_div_box img , .best_of_adidas_div_box img{
+    width: 70vw;
+  }
+  .new_arrival_content , .best_of_adidas_content{
+    align-items: center;
+    width: 70vw;
+    line-height: 1;
+  }
+  #new_arrival_section_div1 h1 ,#best_of_adidas_section_div1 h1{
+    text-align: center;
+  }
+  .new_arrival_content button {
+    margin-top: 1rem;
+  }
+}
+
+
+/* SEO Component Section  */
+
+@media only screen and (max-width: 527px) {
+    #seo_component_section_subdiv1{
+        width: 90vw;
+    }
+    #seo_component_section_subdiv2{
+        width: 90vw;
+        margin-top: 20px;
+    }
+}
+
+/* joining Section DIvision  */
+@media only screen and (max-width: 671px){
+#joining_section_division  {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;}
+
+#joining_section_division h1{
+    text-align: center;
+}
+
+#joining_section_division button{
+    margin-top: 15px;
+}
+}
+
+
+/* Footer Scetion  */
+@media only screen and (max-width: 638px){
+    .links_box {
+        padding: 10px;
+    }
+    .links_box ul{
+        display: flex;
+        flex-direction: row;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+.links_box ul li a{
+ margin-right: 15px;
+ line-height: 2;
+}
+}
+
+@media only screen and (max-width: 410px){
+    #copywrite_div1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 378px){
+    #terms_div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+}
